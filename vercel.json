@@ -20,6 +20,10 @@
         "dest": "/static/$1"
       },
       {
+        "src": "/uploads/products/(.*)",
+        "dest": "/uploads/products/$1"
+      },
+      {
         "src": "/(.*)",
         "dest": "Eshop/wsgi.py"
       }
