@@ -16,10 +16,6 @@
     ],
     "routes": [
       {
-        "src": "/static/(.*)",
-        "dest": "/static/$1"
-      },
-      {
         "src": "/uploads/products/(.*)",
         "dest": "/uploads/products/$1"
       },
@@ -29,3 +25,4 @@
       }
     ]
   }
+  
